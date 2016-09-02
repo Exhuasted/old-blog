@@ -1,0 +1,434 @@
+/*title begin*/
+body{
+	scroll = "no";
+	overflow-y:hidden;
+}
+header{
+	height:40px;
+	padding-top:10px;
+	position:relative;
+}
+h3{
+	width:160px;
+	height:27px;
+	text-indent:-9999px;
+	float:left;
+	margin-left:19px;
+	background: url(../images/title.png) repeat scroll top left;
+	
+}
+.head-right{
+	width:246px;
+	height:40px;
+	position: absolute;
+    top: 0;
+    right: 270px;
+}
+.renew-btn{
+	float: left;
+    width: 106px;
+    height: 28px;
+    line-height: 28px;
+    text-align: center;
+    border: 1px solid #147ade;
+    margin-top: 10px;
+    margin-right: 13px;
+    color: #fff;
+    background-color: #3091f2;
+}
+.renew-btn .ico{
+	display: inline-block;
+    width: 24px;
+    height: 15px;
+    background-image: url(../images/icon-vip-white.png);
+    margin-right: 5px;
+    margin-bottom: -2px
+}
+.download-btn{
+	float: left;
+    background-color: #fff;
+    color: #3091f2;
+    width: 123px;
+    height: 28px;
+    line-height: 28px;
+    text-align: center;
+    margin-top: 10px;
+    border: 1px solid #3091f2;
+}
+.download-btn .ico{
+	display: inline-block;
+    width: 12px;
+    height: 16px;
+    background-image: url(../images/icon-phone.png);
+    vertical-align: -4px;
+    margin-right: 6px;
+}
+.face-user{
+	position: relative;
+    float: right;
+    width: 80px;
+    height:100%;
+    margin-right: 10px;
+    
+}
+.head-search {
+    float: right;
+    padding-right:5px;
+    /*padding-top: 10px;*/
+}
+.input-box {
+    position: relative;
+    width: 160px;
+    height: 28px;
+    width: 160px;
+    border: solid 1px #c2c3ca;
+    background: #fff;
+}
+.input-box .ico{
+	position: absolute;
+    left: 9px;
+    top: 8px;
+    width: 13px;
+    height: 13px;
+    background: url(../images/lay-header.png) no-repeat left -168px;
+}
+.input-box input{
+	position: absolute;
+    border: none;
+    background: none;
+    width: 130px;
+    height: 18px;
+    line-height: 18px;
+    top: 3px;
+    left: 28px;
+    background: #fff;
+    opacity: .50;
+    outline:none;
+}
+/*title end*/
+
+/*sectionTop begin*/
+#content{
+	width:100%;
+}
+#top{
+	width:100%;
+	height:62px;
+	border-top:1px solid #d8dce5;
+		
+}
+.upload{
+	width:144px;
+	height:48px;
+	border-right:1px solid #d8dce5;
+	padding-top:15px;
+	padding-left:15px;
+	background-color: #eaedf4;
+	float:left;
+}
+.upload_ico{
+	width:130px;
+	height:36px;
+	background: url(../images/upload.jpg) no-repeat;
+}
+.tools{
+	height:49px;
+	width:1194px;
+	background-color: #f5f6f9;
+	padding-top:13px;
+	padding-left:12px;
+	float:left;
+	border-bottom:1px solid #c8ccd5;	
+}
+.tools div{
+	height:34px;
+	color:#505254;
+	font-size:14px;
+	border:1px solid #bec3cb;
+	float:left;
+	margin-right:5px;
+	text-align:center;
+	padding:0 18px 0 38px;
+	line-height:34px;
+	vertical-align: middle;
+    cursor: pointer;
+    background: #fff url("../images/ico-message.png") no-repeat 18px 0;
+}
+.tools .download{
+	background-position-y:-350px;
+}
+.tools .share{
+	background-position-y:-384px;
+}
+.tools .move{
+	background-position-y:-447px;
+}
+.tools .rename{
+	background-position-y:-510px;
+}
+.tools .delete{
+	background-position-y:-319px;
+}
+.tools .creat{
+	background-position-y:-542px;
+}
+.tools .reset{
+	background-position-y:-704px;
+	background-position-x:13px;
+	padding:0 20px;
+}
+.tools .client,.tools .ico{
+	width:48px;
+	float:right;
+	margin:0;
+	padding:0;
+	
+}
+.tools .ico{
+	background-position-y:-1086px;
+	margin-right:-1px;
+}
+.tools .client{
+	margin-right:12px;
+	background-position-y:-991px;
+	background-position-x:13px;
+}
+.tools span{
+	 background: url("../images/ico-message.png") no-repeat 0px -1134px;
+	 display:block;
+	 width:7px;
+	 height:4px;
+	 margin-left:31px;
+	 margin-top:16px;
+}
+/*sectionTop end*/
+
+/*contentLeft begin*/
+.leftsideBar{
+	width:159px;
+	border-right:1px solid #d8dce5;
+	background-color: #eaedf4;
+	float:left;
+}
+.leftsideBar .nav-list{
+	position: relative;
+    height: 32px;
+    padding: 2px 0;
+    margin-bottom: 3px;		
+    border-bottom: 1px #eaedf4 solid;
+    border-top: 1px #eaedf4 solid;
+}
+/*移入效果*/
+.nav-hover:hover{
+	background-color: #e0e4ed;
+    border-bottom: 1px solid #c8ccd5;
+    border-top: 1px solid #c8ccd5;
+    
+}
+/*点击效果*/
+.nav-current{
+	background-color: #ced4e0;
+    border-bottom: 1px #d8dce5 solid;
+    border-top: 1px #d8dce5 solid;
+}
+.nav-box .link{
+	display: block;
+    position: relative;
+    height: 100%;
+    outline: none;
+    line-height: 32px;
+    color: #505254;
+    text-indent: 50px;
+    font-size: 14px;
+    /*border-bottom: 1px #eaedf4 solid;
+    border-top: 1px #eaedf4 solid;*/
+}
+.nav-box i{
+	position: absolute;
+    left: 27px;
+    top: 6px;
+    background: url(../images/ico-message.png) no-repeat left top;
+    width: 20px;
+    height: 20px;
+}
+.all i{
+	background-position: 0 -6px;
+}
+.recent i{
+	background-position: 0 -37px;
+}
+.doc i{
+	background-position: 0 -101px;
+}
+.pic i{
+	background-position: 0 -68px
+}
+.voice i{
+	background-position: 0 -197px;
+}
+.video i{
+	background-position: 0 -165px;
+}
+.note i{
+	background-position: 0 -133px;
+}
+.clip i{
+	background-position: 0 -261px;
+}
+.share i{
+	background-position: 0 -293px;
+}
+.recycle i{
+	background-position: 0 -326px;
+}
+.nav-gap{
+	height: 20px;
+    line-height: 0;
+    font-size: 0;
+    overflow: hidden
+}
+.nav-gap .gap{
+	display: block;
+    margin: 9px 0;
+    width: 100%;
+    font-size: 0;
+    height: 0px;
+    line-height: 0px;
+    border-top: 1px solid #d8dce5;
+}
+.nav-bottom{
+	width:160px;
+	height:70px;
+}
+/*contentLeft end*/
+
+/*right-box begin*/
+#right{
+	float:left;
+	width: 1206px;
+	height:100%;
+   
+}
+#right .wrap{
+	width:1194px;
+	float:left;
+	padding-left:12px;
+	border-bottom: solid 1px #e6e9f0;
+}
+#right .inner{
+    height: 30px;
+    background: #fff; 
+}
+#right .checkall{
+    float: left;
+    width: 34px;
+    height: 30px;
+    background: url(../images/ico.png) no-repeat 10px -260px;
+    border-right: 1px #d7d9e0 solid;
+}
+#right .checkedall{
+	background-position: 10px -310px;
+}
+#right .path{
+	/*width:35px;*/
+	margin-left:5px;
+	float:left;
+	line-height: 30px;
+	text-align: center;
+}
+.weiyun{
+	float:left;
+	line-height:30px;
+	margin-left:5px;
+	color:#000;
+	font-weight: bold;
+}
+.path a{
+	text-decoration: none;
+    color: white;
+    font-weight: bold;
+    color:#000;
+    /*float:left;*/
+}
+/*box begin*/
+#right .main-box{
+	height: 100%;
+    width: 100%;
+    padding:5px 0 0 12px;
+    position: relative;
+    background-color: #fff;
+    float:left;
+     
+}
+/*.list-wrap{
+	float: left;
+    height: 123px;
+}*/
+.list{
+	padding-top:18px;
+	float: left;
+    border-bottom: none;
+    width: 118px;
+    height: 100px;
+    border: solid 1px #fff;
+    background: #fff;
+    margin: 0 5px 5px 0;
+    position:relative;
+}
+.checkbox{
+	position: absolute;
+    left: -1px;
+    top: -1px;
+    width: 18px;
+    height: 18px;
+    display: none;
+    background: url(../images/ico.png) no-repeat 0 -370px;
+}
+/*hover*/
+.list-hover{
+	border: solid 1px #c3d8f0;
+	background-color: #e9f3fd;
+}
+.list-hover .checkbox{
+	display:block;
+}
+/*checked*/
+.list-checked{
+	border: 1px solid #c3d8f0;
+    background: rgba(195,216,240,0.5);
+}
+.list-checked .checkbox{
+	display: block;
+    background: url(../images/ico.png) no-repeat 0 -421px;
+}
+.img{
+	margin:0 auto;
+	width:64px;
+	height:64px;
+	/*float:left;*/
+	display:block;
+	background: url(../images/file.png) no-repeat ;
+}
+.img-folder{
+	 background-position: 0px 0px;
+}
+.name{
+	padding:5px;
+	display:block;
+	text-align: center;
+	word-break:break-all;
+	overflow: hidden;
+
+}
+.name-inp{
+	outline: none;
+	width:114px;
+	text-align: center;
+	display:none;
+}
+.inp{
+	outline: none;
+	width:114px;
+	text-align: center;
+	
+}
