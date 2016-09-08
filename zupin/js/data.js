@@ -33,7 +33,7 @@ var worksData = [
 	{
 		"img":"img/gerenye.jpg",
 		"text":"原生javascript实现的全屏切换效果，这个作品的亮点就是里面所有的动画都是用css3实现，通过js控制相应的class。",
-		"link":"http://x710894881.github.io/demos/designeat/"
+		"link":"http://Exhuasted.github.io/zupin/"
 	},
 	{
 		"img":"img/tianmao.jpg",
