@@ -53,7 +53,7 @@ var worksData = [
 	{
 		"img":"img/weiyun.jpg",
 		"text":"用原生js实现的腾讯微云网页版，实现了基本的新建，删除，重命名，全选，框选等主要功能。",
-		"link":"javascript:;"
+		"link":"/weiyun"
 	},
 	{
 		"img":"img/hash.jpg",
@@ -63,7 +63,7 @@ var worksData = [
 	{
 		"img":"img/xiaoyouxi.jpg",
 		"text":"这是一个原生JS写的一个QQ表情小游戏，使用了Js的运动框架，鼠标点击表情震动消失，未点击碰到底部时屏幕会晃动，同时记录了失误和得分的数据。",
-		"link":"javascript:;"
+		"link":"/game"
 	},
 	{
 		"img":"img/rili.jpg",

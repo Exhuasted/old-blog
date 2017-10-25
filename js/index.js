@@ -137,15 +137,15 @@ ready(function(){
 		}	
 	});
 	//li的a点击事件
-	worksUl.addEventListener('click',function(ev){
-		var ev = ev || event;
-		var index = parseInt(ev.target.getAttribute('index'));
-		if(ev.target.nodeName.toLowerCase() === 'a'){
-			popupWrap.style.transform = 'scale(1)';
-			popupWrap.style.zIndex = 999;
-			popupImg.src = imgArr[index];
-		}
-	})
+	// worksUl.addEventListener('click',function(ev){
+	// 	var ev = ev || event;
+	// 	var index = parseInt(ev.target.getAttribute('index'));
+	// 	if(ev.target.nodeName.toLowerCase() === 'a'){
+	// 		popupWrap.style.transform = 'scale(1)';
+	// 		popupWrap.style.zIndex = 999;
+	// 		popupImg.src = imgArr[index];
+	// 	}
+	// })
 	
 	//第五屏
 
