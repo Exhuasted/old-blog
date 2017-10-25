@@ -22,7 +22,9 @@ body { background:#f1f1f1; font-family:微软雅黑; font-size:16px; user-select
 #qq img{
 	position: absolute;
 	left: 0px;
-	top:-24px;
+	top:-30px;
+	cursor: pointer;
+	transform:scale(1.5);
 }
 </style>
 <script src="js/mTween2.js"></script>
@@ -65,7 +67,6 @@ body { background:#f1f1f1; font-family:微软雅黑; font-size:16px; user-select
 		var box = $("#box");
 
 		var fraction_p = $("p",$("#fraction"));
-		console.log(fraction_p)
 		var speedTime = 3000;
 		var winNum = 0;  //得分
 		var loseNum = 0; //失分
@@ -76,8 +77,8 @@ body { background:#f1f1f1; font-family:微软雅黑; font-size:16px; user-select
 			btn.disabled = false;
 			winNum = 0;
 			loseNum = 0;
-			speedTime = 100;
-			runImg.style.top = "-24px";
+			speedTime = 3000;
+			runImg.style.top = "-30px";
 		}
 
 
@@ -88,16 +89,16 @@ body { background:#f1f1f1; font-family:微软雅黑; font-size:16px; user-select
 			var num = Math.round( Math.random() * 10 )+1;
 
 			runImg.style.left = l + "px";
-			runImg.style.top = "-24px";
+			runImg.style.top = "-30px";
 			runImg.src = "./image/"+num+".png";
 			speedTime -= 100;
 			if( speedTime <= 0 ) speedTime = 100;
-			mTween(runImg,"top",426,speedTime,"linear",function (){
+			mTween(runImg,"top",420,speedTime,"linear",function (){
 					shake(box,"top",30,function (){
 						
 						loseNum++;
 						fraction_p[1].innerHTML = "失分："+loseNum+" 分";
-						if(loseNum>=2){
+						if(loseNum>=3){
 							alert("您失败了，重新开始");
 							init();
 						}else{
@@ -141,12 +142,11 @@ body { background:#f1f1f1; font-family:微软雅黑; font-size:16px; user-select
 	};
 </script>
 </head>
-
 <body>
-
 <div id="alert">
 	<h2>你的鼠标有多快？</h2>
   <p>游戏说明：点击“开始游戏”，随机掉下QQ表情，点中它，千万别让它掉下去！！</p>
+  <p style="color:#666;">三次没有点中，游戏重新开始哦！</p>
   <input type="button" value="开始游戏" id="btn" />
 </div>
 
