@@ -40,9 +40,10 @@ window.onload = function(){
 		}
 		
 		inp.onblur = function(){
-			if(name == ''){		
+			if(name == ''){	
+				// inp.focus()	
 				alert('请输入文件夹名')
-				inp.focus()
+				
 			}else{
 				name = inp.value;
 					datas.push({
