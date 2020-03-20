@@ -1,7 +1,6 @@
-# Exhuasted.github.io
 ---
 home: true
-heroImage: /hero.png
+heroImage: /logo.png
 actionText: 快速上手 →
 actionLink: /zh/guide/
 features:
